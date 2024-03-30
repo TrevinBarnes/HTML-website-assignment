@@ -1,0 +1,56 @@
+
+/*this is how you leave messages in a CSS file*/
+
+/*I changed the background color of the whole page, this feels better on your eyes and works for the theme of the website*/
+body {
+    background-color: tan;
+}
+/*I gave the headers a nicer color and a shadow to give it depth*/
+h1{
+    color:brown ;
+    text-shadow: black 1px 1px;
+}
+/*this is my italicized text on page3 */
+i{
+    text-shadow: white 1px 1px;
+    border-bottom: 1px solid;
+}
+/*gave a border and color changes to my internal links to categorize them*/
+div{
+    border-style: solid; border-color: gray; border-radius: 2px; 
+    background-color: lightgray;
+}
+
+/*changed the base color to red */
+a{
+    color: red;
+}
+/*this changes the color when hovered over the internal links*/
+a:hover{
+    color: white;
+}
+/*table headers text changed to white and the background color to brown*/
+th{
+    color: white;
+    background-color:brown;
+}
+/*this changed the contents of the table and added some dividing lines */
+tr,td{
+    padding: 8px;
+    border-bottom:3px solid gray;
+    background-color: white;
+}
+/*changed the space used by the table */
+table{
+    width:100%
+}
+/*this is the organized lists changing the space of the border and giving them their own space*/
+ol {
+    margin-right: 700px;
+    background-color: gainsboro;
+    border-style: solid; border-radius: 4px; border-color:gray
+}
+
+input{
+    background-color: lightblue;
+}
